@@ -1,0 +1,187 @@
+@media (max-width: 1000px) {
+  .html {
+    width: 100%;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-logo {
+    width: 300px;
+  }
+  .header-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .header-links a {
+    font-size: 4vw;
+    text-decoration: none;
+    
+    margin-bottom: 1em;
+  }
+  .header-links a:hover {
+    color: lightgray;
+  }
+  .header-search-form {
+    display: none;
+  }
+  .header-topbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1.5em;
+  }
+  .header-topbar-links a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+  }
+  .header-topbar-icons {
+    display: inline;
+  }
+  .header-topbar-icons a img {
+    width: 90px;
+  }
+
+  .subheader {
+    display: none;
+  }
+
+  .intro {
+    width: 90%;
+  }
+  
+  .spotlight {
+    width: 90%;
+    flex-direction: column;
+  }
+  .spotlight-artist-picture {
+    width: 550px;
+    height: 450px;
+    align-self: center;
+  }
+  .spotlight-artist-description {
+    font-size: 64px;
+  }
+
+  .order {
+    height: auto;
+  }
+  .order-title {
+    font-size: 48px;
+  }
+  .order-button span {
+    font-size: 32px;
+    font-family: 'Jacques Francois', serif;
+    color: white;
+  }
+  .order-button {
+    margin: 1em;
+  }
+  .order-button img {
+    padding: 0.5em;
+    width: 4em;
+  }
+  .paintings-painting-title {
+    font-size: 40px;
+  }
+  .paintings-painting {
+    width: 90%;
+    height: auto;
+  }
+  .paintings-painting-picture {
+    width: 100%;
+    height: auto;
+  }
+  .paintings-painting-description {
+    font-size: 30px;
+  }
+  .paintings-painting-price {
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+  .contact-input-msg {
+    width: 100%;
+    height: 100px;
+    margin: 0.5em;
+  }
+  .contact-button img {
+    height: auto;
+    width: 80px;
+  }
+  .contact-div-lastdiv {
+    flex-direction: column;
+  }
+
+  .footer-socials-mobile {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4em;
+  }
+  .footer-socials-mobile img {
+    width: 100px;
+    height: auto;
+  }
+  .footer-socials {
+    display: none;
+  }
+  footer {
+    background-color: #8D040C;
+    padding: 1em;
+    color: white;
+    text-align: center;
+  }
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .footer-links {
+    font-size: 40px;
+  }
+  .footer-links p {
+    text-decoration: underline;
+    margin: 0 0 1em 0;
+  }
+  .footer-links a {
+    color: white;
+    padding: 1em 0 1em 0;
+    text-decoration: none;
+  }
+  .footer-links a:hover {
+    color: lightgray;
+  }
+  .footer-cgv-mobile {
+    display: flex;
+    color: white;
+    font-size: 40px;
+    padding: 1em 0 0.5em 0;
+    text-decoration: underline;
+  }
+  .footer-cgv-mobile:hover {
+    color: lightgray;
+  }
+  .footer-cookie-mobile {
+    display: flex;
+    font-size: 40px;
+    color: white;
+    padding: 0.5em 0 1em 0;
+    text-decoration: underline;
+  }
+  .footer-cgv {
+    display: none;
+  }
+
+
+  .footer-subtitle {
+    font-size: 32px;
+    text-align: center;
+    margin: 1em 0 0 0;
+  }
+
+}

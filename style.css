@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Assistant&family=Bebas+Neue&family=Italiana&family=Italianno&family=Jacques+Francois&family=Metal&family=Milonga&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.html {
+  width: 100%;
+  margin: 0px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+header {
+  background-color: #8D040C;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.header-logo {
+  width: 300px;
+  height: auto;
+  padding: 2rem;
+}
+.header-links {
+  align-self: center;
+}
+.header-links a {
+  align-self: center;
+  color: white;
+  font-size: 2vw;
+  padding: 1em;
+}
+.header-links a:hover {
+  color: lightgray;
+}
+.header-search-form {
+  width: 350px;
+  height: 3em;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  background: black;
+  align-self: center;
+}
+.header-search-form-input {
+  background: none;
+  width: 300px;
+  color: gray;
+  padding: 1em;
+  font-size: large;
+  outline: none;
+  border: none;
+  appearance: none;
+}
+.header-search-form-button {
+  border: none;
+  background: none;
+  outline: none!important;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 50px;
+
+}
+.header-search-form-image {
+  width: 60%;
+}
+.header-topbar-icons {
+  display: none;
+}
+
+.frame {
+  background-image: url("img/background.png");
+  background-color: #ffe7c4;
+}
+
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: 6em;
+  align-items: center;
+  margin: auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.02);
+  box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 15px;
+}
+.subheader-links a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  padding: 1rem;
+}
+.subheader-icons {
+  display: inline;
+}
+.subheader-icons a img {
+  width: 40px;
+}
+
+.intro {
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+.intro-img {
+  margin: 1em;
+}
+.intro-citation {
+  font-family: 'Italianno', cursive;
+  font-size: 40px;
+}
+.intro-citation-author {
+  font-family: 'Italianno', cursive;
+  font-size: 40px;
+  text-decoration: underline;
+  padding-bottom: 2rem;
+}
+.intro-paragraph {
+  font-family: 'Milonga', serif;
+  font-size: 30px;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #8D040C;
+  text-align: center;
+  align-items: center;
+  padding: 1em;
+  margin: 4em 0 1em 0;
+  height: 12em;
+}
+.order-title {
+  color: white;
+  font-size: 28px;
+  font-family: 'Jacques Francois', serif;
+  padding: 0.8em 0 0.5em 0;
+}
+.order-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  margin: auto;
+  border-radius: 10px;
+}
+.order-button span {
+  font-size: 20px;
+  font-family: 'Jacques Francois', serif;
+  color: white;
+  padding: 0.5em;
+}
+.order-button img {
+  padding: 0.5em;
+  width: 4em;
+}
+.order-clause {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  margin: 1em 0 2em 0;
+}
+
+.spotlight {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+.spotlight-teaser {
+  font-family: 'Assistant', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0 0 1em 0;
+}
+.spotlight-artist-picture {
+  width: 300px;
+  height: 200px;
+}
+.spotlight-artist-description {
+  font-family: 'Italianno', cursive;
+  font-size: 40px;
+  margin: 0 0 0 1em;
+  align-self: center;
+}
+
+.paintings {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 4em auto 0 auto;
+}
+.paintings-painting {
+  width: 450px
+}
+.paintings-painting-title {
+  font-size: 32px;
+  font-family: 'Italiana', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5em;
+}
+.paintings-painting-picture {
+  width: 450px;
+  height: 450px;
+}
+.paintings-painting-description {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  padding: 0.5em;
+}
+.paintings-painting-price {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 auto 1em auto;
+}
+
+.contact {
+  width: 80%;
+  margin: 3em auto 0 auto;
+  padding-bottom: 3em;
+  text-align: center;
+}
+.contact-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.contact-div-subdiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+  align-items: center;
+}
+.contact-input {
+  border-radius: 20px;
+  padding-left: 0.5em;
+  width: 80%;
+  height: 100%;
+  font-size: 24px;
+  margin: 0.5em;
+}
+.contact-input-msg {
+  border-radius: 20px;
+  padding-left: 0.5em;
+  margin-right: 0.5em;
+  width: 85%;
+  height: 100px;
+  font-size: 24px;
+
+}
+.contact-button {
+  border-radius: 30px;
+  background-color: white;
+}
+.contact-button img {
+  padding: 0;
+  margin: 1em;
+  width: 40%;
+}
+.contact-div-lastdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+.contact-subtitle {
+  margin: 2em 0 0 0;
+  font-size: 20px;
+  font-family: "Monserrat", sans-serif;
+}
+
+.footer-socials-mobile {
+  display: none;
+}
+.footer-cgv-mobile {
+  display: none;
+}
+.footer-cookie-mobile {
+  display: none;
+}
+footer {
+  background-color: #8D040C;
+  padding: 1em;
+  color: white;
+  text-align: center;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  text-align: left;
+}
+.footer-links p {
+  text-decoration: underline;
+  margin: 0 0 1em 0;
+}
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: lightgray;
+}
+.footer-cgv {
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.footer-cgv:hover {
+  color: lightgray;
+}
+.footer-socials {
+  text-align: right;
+}
+.footer-socials img {
+  width: 40px;
+  height: auto;
+}
+.footer-subtitle {
+  font-size: 20px;
+  text-align: center;
+  margin: 1em 0 0 0;
+}
